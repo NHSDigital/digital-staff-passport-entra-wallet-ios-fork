@@ -1,15 +1,15 @@
 Pod::Spec.new do |s|
     s.name= 'WalletLibrary'
-    s.version= '1.0.1'
+    s.version= '1.0.1a'
     s.license= 'MIT'
     s.summary= 'An SDK to manage your Decentralized Identities and Verifiable Credentials.'
-    s.homepage= 'https://github.com/microsoft/entra-verifiedid-wallet-library-ios'
+    s.homepage= 'https://github.com/NHSDigital/digital-staff-passport-entra-wallet-ios-fork'
     s.authors= {
       'symorton' => 'symorton@microsoft.com'
     }
-    s.documentation_url= 'https://github.com/microsoft/entra-verifiedid-wallet-library-ios'
+    s.documentation_url= 'https://github.com/NHSDigital/digital-staff-passport-entra-wallet-ios-fork'
     s.source= {
-      :git => 'https://github.com/microsoft/entra-verifiedid-wallet-library-ios.git',
+      :git => 'https://github.com/NHSDigital/digital-staff-passport-entra-wallet-ios-fork.git',
       :submodules => true,
       :tag => s.version
     }
